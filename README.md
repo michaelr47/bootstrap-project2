@@ -1,6 +1,6 @@
-# bootstrap-boilerplate
+# Bootstrap Portfolio
 ## Description
-This is a bootstrap template
+
 
 ## License
 ---
