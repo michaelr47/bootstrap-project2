@@ -18,45 +18,10 @@ nav a:hover {
     color: white !important;
 }
 .rightpic {
-    border-radius: 50%;
-    max-height: 100%;
-    max-width: 100%;
-  
+    width: 80%;
+    height: auto;
 }
 
-@media screen and (min-width: 769px) {
-    .rightpic {
-        width: 50vw;
-       
-    }
-}
-@media screen and (max-width: 768px) {
-    .rightpic {
-        width: 100vw;
-        margin: 2.5rem 5px 0px 5px;
-        
-    }
-}
-/* @media screen and (min-width: 577px) {
-    .rightpic {
-        width: 100vw;
-        margin-top: 1rem;
-    }
-}
-@media screen and (max-width: 576px) {
-    .rightpic {
-        width: 100vw;
-        margin: 1rem 5px 0px 5px;
-        
-    }
-}
-@media screen and (max-width: 500px) {
-    .rightpic {
-        width: 100vw;
-        margin: 1rem 5px 0px 5px;
-        
-    }
-} */
 #skills {
     background-color: rgb(220, 233, 200);
 }
