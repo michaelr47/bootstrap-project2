@@ -22,7 +22,7 @@
   <body>
     <!-- start of navbar section -->
     <header>
-      <nav class="navbar navbar-expand-sm shadow-sm">
+      <nav class="navbar navbar-expand-md shadow-sm">
         <div class="container-fluid">
           <a href="#" class="navbar-brand"
             ><img src="img/newlogopage.png" alt="logo" width="100%" height="60"
@@ -40,13 +40,13 @@
           <div class="collapse navbar-collapse" id="toggleCollapse">
             <ul class="navbar-nav text-center ms-auto">
               <li class="nav-item">
-                <a class="nav-link me-5" href="#">About</a>
+                <a class="nav-link me-md-5" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5" href="#">Projects</a>
+                <a class="nav-link me-md-5" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5" href="#">Contact</a>
+                <a class="nav-link me-md-5" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -58,12 +58,19 @@
       <section id="about" class="p-sm-1 about">
         <div class="container-fluid">
           <div class="row p-md-5 align-items-center">
-            <div class="col-md-7 px-xs-0 px-sm-0 p-md-2 pt-3 text-center mb-sm-5 mb-5 mb-md-0 mb-lg-0">
+            <div class="col-md-7 px-sm-0 p-md-2 pt-4  mb-sm-5 mb-5 mb-md-0 mb-lg-0 text-center">
               <img src="img/mainpic(1).jpg" class="rightpic rounded-circle " alt="main pic"/>
+              <figcaption class="pt-1">
+                <small><i>- Me @ Yosemtite National Park</i></small>
+              </figcaption>
             </div>
-            <div class="col-md-5 order-md-first mb-sm-4 mb-xs-4 text-sm-center ">
-              <p>Welcome! Names Michael Reyes and I'm an inspiring</p>
-              <p class="h2"><span>Frontend Developer</span></p>
+            <div class="col-md-5 order-md-first mb-sm-4 text-center">
+              <p><small>
+                welcome! names</small>
+                 <span class="name">Michael Reyes </span>
+                 <small>and I'm an inspiring</small>
+                </p>
+              <p><span class="h2 title">Frontend Developer</span</p>
               <p>
                 Currently in training to learn HTML, CSS, Bootstrap & JavaScript!
               </p>
@@ -75,12 +82,31 @@
       <section>
         <div class="container-fluid p-5" id="skills">
           <div class="row p-5">
-            <div class="col-sm-12 col-md-4">
-              <h2>About Me</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae error consequuntur fugit nobis rerum dolorem officia exercitationem. Consequatur suscipit aliquam fugiat! Obcaecati, dicta. Nisi omnis ipsam porro accusamus exercitationem placeat!</p>
+            <div class="col-sm-12 col-md-6 text-center align-content-center">
+              <h2 class="mb-5 mt-5">About Me</h2>
+              <p>From having no direct career path in college and switching majors tons of times, to now wanting to code because of the ability to express myself and make ideas come to life through code is incredible to me! Pivoting from the retail space to the tech industry is something I want to do. As of late, I'm learning through a BitWise Industries Web Development class covering
+                HTML, CSS, Bootstrap, & JavaScript!</p>
             </div>
-            <div class="col-sm-12 col-md-8">
-              <h2>My Skills</h2>
+            <div class="col-sm-12 col-md-6 text-center">
+              <h2 class="mb-4">My Skills</h2>
+              <p class="text-decoration-underline fs-5 fw-semibold">HTML</p>
+              <div class="bar">
+                <div class="skill html">
+                  <span class="text-light fw-semibold fs-5">40%</span>
+                </div>
+              </div>
+              <p class="text-decoration-underline fs-5 fw-semibold">CSS</p>
+              <div class="bar">
+                <div class="css skill">
+                  <span class="text-light fw-semibold fs-5">30%</span>
+                </div>
+              </div>
+              <p class="text-decoration-underline fs-5 fw-semibold">Bootstrap</p>
+              <div class="bar">
+                <div class="bootstrap skill">
+                  <span class="text-light fw-semibold fs-5">20%</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

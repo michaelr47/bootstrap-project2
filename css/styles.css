@@ -2,12 +2,13 @@
 font-family: Quicksand, sans-serif; */
 
 body {
-    background: #f7f7f7;
+    background: #f6f6f6;
 }
 
 nav {
-    background: #dfcdb6;
+    background-color: #d2b48c9e;
 }
+
 nav a {
 font-family: Quicksand, sans-serif; 
 font-weight: bolder !important;
@@ -17,11 +18,46 @@ font-size: 20px !important;
 nav a:hover {
     color: white !important;
 }
+
+
+.name {
+    font-family: Quicksand, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+.title {
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 10px;
+  color: #d0a769;
+  text-shadow: 1px 1.5px 1.5px #6E0A1E;
+  
+}
 .rightpic {
-    width: 80%;
+    width: 75%;
     height: auto;
 }
-
-#skills {
-    background-color: rgb(220, 233, 200);
+.bar {
+    width: 100%; 
+    background-color: rgb(110, 110, 110);
+    border-radius: 20px;
 }
+.skill {
+    background-color: #d4ac71;
+    text-align: right;
+    border-radius: 20px;
+}
+.html {
+    width: 40%;
+}
+
+.css {
+    width: 30%;
+}
+.bootstrap {
+    width: 20%;
+}
+/* #skills {
+    background-color: #8000209b;
+   
+} */
