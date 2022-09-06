@@ -10,13 +10,19 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <!-- link to stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@1,600&display=swap"
       rel="stylesheet"
     />
+    <!-- favicon link -->
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
   </head>
   <body>
@@ -57,21 +63,18 @@
     <main>
       <section id="about" class="p-sm-1 about">
         <div class="container-fluid">
-          <div class="row p-md-5 align-items-center">
-            <div class="col-md-7 px-sm-0 p-md-2 pt-4  mb-sm-5 mb-5 mb-md-0 mb-lg-0 text-center">
+          <div class="row p-md-5 align-items-center align-content-center">
+            <div class="col-md-6 px-sm-0 p-md-2 pt-4 mb-sm-5 mb-5 mb-md-0 mb-lg-0 text-center">
               <img src="img/mainpic(1).jpg" class="rightpic rounded-circle " alt="main pic"/>
               <figcaption class="pt-1">
                 <small><i>- Me @ Yosemtite National Park</i></small>
               </figcaption>
             </div>
-            <div class="col-md-5 order-md-first mb-sm-4 text-center">
-              <p><small>
-                welcome! names</small>
-                 <span class="name">Michael Reyes </span>
-                 <small>and I'm an inspiring</small>
-                </p>
-              <p><span class="h2 title">Frontend Developer</span</p>
-              <p>
+
+            <div class="col-md-6 order-md-first mb-sm-4 text-center ">
+              <h2 class="name">Michael Reyes</h2>
+              <h1 class="title fw-bold"><i>Frontend Developer</i></h1>
+              <p class="fw-bolder fs-5">
                 Currently in training to learn HTML, CSS, Bootstrap & JavaScript!
               </p>
             </div>
@@ -79,38 +82,39 @@
         </div>
       </section>
 
-      <section>
-        <div class="container-fluid p-5" id="skills">
-          <div class="row p-5">
-            <div class="col-sm-12 col-md-6 text-center align-content-center">
+      <section class="p-0" id="skills">
+        <div class="container-fluid p-5">
+          <div class="row p-4">
+            <div class="col-sm-12 col-md-6 text-center align-content-center px-sm-4">
               <h2 class="mb-5 mt-5">About Me</h2>
-              <p>From having no direct career path in college and switching majors tons of times, to now wanting to code because of the ability to express myself and make ideas come to life through code is incredible to me! Pivoting from the retail space to the tech industry is something I want to do. As of late, I'm learning through a BitWise Industries Web Development class covering
+              <p clas="d-flex align-items-center">From having no direct career path in college and switching majors tons of times, to now wanting to code because of the ability to express myself and make ideas come to life through code is incredible to me! Pivoting from the retail space to the tech industry is something I want to do. As of late, I'm learning through a BitWise Industries Web Development class covering
                 HTML, CSS, Bootstrap, & JavaScript!</p>
             </div>
             <div class="col-sm-12 col-md-6 text-center">
-              <h2 class="mb-4">My Skills</h2>
-              <p class="text-decoration-underline fs-5 fw-semibold">HTML</p>
-              <div class="bar">
+              <h2 class="mb-5 mt-5">My Skills</h2>
+              <p class="fs-5 fw-semibold">HTML <img src="img/html5.png" width="32"></p>
+              <div class="bar mb-2">
                 <div class="skill html">
-                  <span class="text-light fw-semibold fs-5">40%</span>
+                  <span class="fw-semibold fs-5 text-success">40%</span>
                 </div>
               </div>
-              <p class="text-decoration-underline fs-5 fw-semibold">CSS</p>
-              <div class="bar">
+              <p class="fs-5 fw-semibold">CSS <img src="img/css-icon.svg" width="32"></p>
+              <div class="bar mb-2">
                 <div class="css skill">
-                  <span class="text-light fw-semibold fs-5">30%</span>
+                  <span class="text-success fw-semibold fs-5">30%</span>
                 </div>
               </div>
-              <p class="text-decoration-underline fs-5 fw-semibold">Bootstrap</p>
-              <div class="bar">
+              <p class="fs-5 fw-semibold">Bootstrap <img src="img/Bootstrap_logo.svg" width="32"</p>
+              <div class="bar mb-2">
                 <div class="bootstrap skill">
-                  <span class="text-light fw-semibold fs-5">20%</span>
+                  <span class="text-success fw-semibold fs-5">20%</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section></section>
       <section></section>
     </main>

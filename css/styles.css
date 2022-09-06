@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #d2b48c9e;
+    background-color: #dfcdb6;
 }
 
 nav a {
@@ -18,21 +18,26 @@ font-size: 20px !important;
 nav a:hover {
     color: white !important;
 }
+p, h2 {
+    font-family: Quicksand;
+}
+/* #about {
 
-
+} */
 .name {
-    font-family: Quicksand, sans-serif;
-    font-size: 1.5rem;
-    font-weight: bolder;
-
+    font-family: Kanit, sans-serif;
+    font-size: 2.5rem;
+    color: #010101;
 }
 .title {
   font-family: "Kanit", sans-serif;
-  letter-spacing: 10px;
+  letter-spacing: 9px;
   color: #d0a769;
   text-shadow: 1px 1.5px 1.5px #6E0A1E;
-  
+  text-transform: uppercase;
+  white-space: nowrap;
 }
+
 .rightpic {
     width: 75%;
     height: auto;
@@ -57,7 +62,45 @@ nav a:hover {
 .bootstrap {
     width: 20%;
 }
-/* #skills {
-    background-color: #8000209b;
-   
-} */
+
+@media only screen and (min-width:768px) {
+    .title {
+        font-family: "Kanit", sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 5.5px;
+        color: #d0a769;
+        text-shadow: 1px 1.5px 1.5px #6E0A1E;
+        text-transform: uppercase;
+    }
+    .right-pic {
+        width: 100%;
+    }
+}
+
+  @media only screen and (min-width: 992px) {
+    .title {
+        font-family: "Kanit", sans-serif;
+        font-size: 2rem;
+        color: #d0a769;
+        letter-spacing: 8px;
+        text-shadow: 1px 1.5px 1.5px #6E0A1E;
+        letter-spacing: 8px;
+        padding-right: 1px;
+    }
+    .right-pic {
+        width: 100%;
+    }
+    
+} 
+@media only screen and (min-width: 1200px) {
+    .title {
+        font-family: "Kanit", sans-serif;
+        font-size: 2.5rem;
+        color: #d0a769;
+        letter-spacing: 10px;
+        text-shadow: 1px 1.5px 1.5px #6E0A1E;
+    }
+    .right-pic {
+        width: 100%;
+    }
+}
