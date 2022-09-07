@@ -13,15 +13,20 @@
     <!-- link to stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
     <!-- google font links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@1,600&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/989dcd78de.js" crossorigin="anonymous"></script>
     <!-- favicon link -->
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
   </head>
@@ -40,7 +45,8 @@
             data-bs-target="#toggleCollapse"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="toggleCollapse">
@@ -64,19 +70,32 @@
       <section id="about" class="p-sm-1 about">
         <div class="container-fluid">
           <div class="row p-md-5 align-items-center align-content-center">
-            <div class="col-md-6 px-sm-0 p-md-2 pt-4 mb-sm-5 mb-5 mb-md-0 mb-lg-0 text-center">
-              <img src="img/mainpic(1).jpg" class="rightpic rounded-circle " alt="main pic"/>
+            <div
+              class="col-md-6 px-sm-0 p-md-2 pt-4 mb-sm-5 mb-5 mb-md-0 mb-lg-0 text-center"
+            >
+              <img
+                src="img/mainpic(1).jpg"
+                class="rightpic rounded-circle"
+                alt="main pic"
+              />
               <figcaption class="pt-1">
                 <small><i>- Me @ Yosemtite National Park</i></small>
               </figcaption>
             </div>
 
-            <div class="col-md-6 order-md-first mb-sm-4 text-center ">
+            <div class="col-md-6 order-md-first mb-sm-4 text-center">
               <h2 class="name">Michael Reyes</h2>
               <h1 class="title fw-bold"><i>Frontend Developer</i></h1>
               <p class="fw-bolder fs-5">
-                Currently in training to learn HTML, CSS, Bootstrap & JavaScript!
+                Currently in training to learn HTML, CSS, Bootstrap &
+                JavaScript!
               </p>
+              <div class="d-flex justify-content-evenly ">
+              <a href="https://github.com/michaelr47" target="_blank"><i class="socials fa-brands fa-github fa-2x"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="socials fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="socials fa-brands fa-twitter fa-2x"></i></a>
+            <a href="https://codepen.io/michaelr4"><i class="fa-brands fa-codepen fa-2x"></i></a>
+            </div>
             </div>
           </div>
         </div>
@@ -85,29 +104,46 @@
       <section class="p-0" id="skills">
         <div class="container-fluid p-5">
           <div class="row p-4">
-            <div class="col-sm-12 col-md-6 text-center align-content-center px-sm-4">
-              <h2 class="mb-5 mt-5">About Me</h2>
-              <p clas="d-flex align-items-center">From having no direct career path in college and switching majors tons of times, to now wanting to code because of the ability to express myself and make ideas come to life through code is incredible to me! Pivoting from the retail space to the tech industry is something I want to do. As of late, I'm learning through a BitWise Industries Web Development class covering
-                HTML, CSS, Bootstrap, & JavaScript!</p>
+            <div
+              class="col-sm-12 col-md-6 text-center align-content-center px-sm-4"
+            >
+              <h2 class="mt-5">About Me</h2>
+              <div class="h-100 d-flex align-items-center lh-lg">
+                <p class="mb-5">
+                  From having no direct career path in college and switching
+                  majors tons of times, to now wanting to code because of the
+                  ability to express myself and make ideas come to life through
+                  code is incredible to me! Pivoting from the retail space to
+                  the tech industry is something I want to do. As of late, I'm
+                  learning through a BitWise Industries Web Development class
+                  covering HTML, CSS, Bootstrap, & JavaScript!
+                </p>
+              </div>
             </div>
             <div class="col-sm-12 col-md-6 text-center">
-              <h2 class="mb-5 mt-5">My Skills</h2>
-              <p class="fs-5 fw-semibold">HTML <img src="img/html5.png" width="32"></p>
+              <h2 class="mb-4 mt-5">My Skills</h2>
+              <p class="fs-5 fw-semibold">
+                HTML <img src="img/html5.png" width="32" />
+              </p>
               <div class="bar mb-2">
                 <div class="skill html">
-                  <span class="fw-semibold fs-5 text-success">40%</span>
+                  <span class="fw-semibold fs-5">40%</span>
                 </div>
               </div>
-              <p class="fs-5 fw-semibold">CSS <img src="img/css-icon.svg" width="32"></p>
+              <p class="fs-5 fw-semibold">
+                CSS <img src="img/css-icon.svg" width="32" />
+              </p>
               <div class="bar mb-2">
                 <div class="css skill">
-                  <span class="text-success fw-semibold fs-5">30%</span>
+                  <span class="fw-semibold fs-5">30%</span>
                 </div>
               </div>
-              <p class="fs-5 fw-semibold">Bootstrap <img src="img/Bootstrap_logo.svg" width="32"</p>
+              <p class="fs-5 fw-semibold">
+                Bootstrap <img src="img/Bootstrap_logo.svg" width="32"
+              </p>
               <div class="bar mb-2">
                 <div class="bootstrap skill">
-                  <span class="text-success fw-semibold fs-5">20%</span>
+                  <span class="fw-semibold fs-5">20%</span>
                 </div>
               </div>
             </div>
