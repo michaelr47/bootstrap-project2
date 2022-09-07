@@ -1,8 +1,8 @@
 # Bootstrap Portfolio
-## Description
+## This is my second attempt at improving my portfolio site with Bootstrap and making it responsive.
 
 
-## License
+## Michael Reyes
 ---
 ### Contact 
 email@email.com
