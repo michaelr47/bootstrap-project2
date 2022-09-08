@@ -31,15 +31,15 @@
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
   </head>
   <body>
-    <!-- start of navbar section -->
+<!-- start of navbar section -->
     <header>
       <nav class="navbar navbar-expand-md shadow-sm">
-        <div class="container-fluid">
+        <div class="container-fluid px-0">
           <a href="#" class="navbar-brand"
-            ><img src="img/newlogopage.png" alt="logo" width="100%" height="60"
+            ><img class="ms-1" src="img/newlogopage.png" alt="logo" width="100%" height="60"
           /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler me-2"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#toggleCollapse"
@@ -65,9 +65,10 @@
         </div>
       </nav>
     </header>
-    <!-- end of navbar section -->
+<!-- end of navbar section -->
     <main>
-      <section id="about" class="p-sm-1 about">
+<!-- start of home -->
+      <section id="home" class="p-sm-1">
         <div class="container-fluid">
           <div class="row p-md-5 align-items-center align-content-center">
             <div
@@ -94,14 +95,16 @@
               <a href="https://github.com/michaelr47" target="_blank"><i class="socials fa-brands fa-github fa-2x"></i></a>
             <a href="https://linkedin.com" target="_blank"><i class="socials fa-brands fa-linkedin fa-2x"></i></a>
             <a href="https://twitter.com" target="_blank"><i class="socials fa-brands fa-twitter fa-2x"></i></a>
-            <a href="https://codepen.io/michaelr4"><i class="fa-brands fa-codepen fa-2x"></i></a>
+            <a href="https://codepen.io/michaelr4"><i class="socials fa-brands fa-codepen fa-2x"></i></a>
             </div>
             </div>
           </div>
         </div>
       </section>
+<!-- end of home -->
 
-      <section class="p-0" id="skills">
+<!--- start of about me -->
+      <section class="p-0" id="about-skills">
         <div class="container-fluid p-5">
           <div class="row p-4">
             <div
@@ -109,7 +112,7 @@
             >
               <h2 class="mt-5">About Me</h2>
               <div class="h-100 d-flex align-items-center lh-lg">
-                <p class="mb-5">
+                <p class="mb-5 text-center">
                   From having no direct career path in college and switching
                   majors tons of times, to now wanting to code because of the
                   ability to express myself and make ideas come to life through
@@ -139,7 +142,7 @@
                 </div>
               </div>
               <p class="fs-5 fw-semibold">
-                Bootstrap <img src="img/Bootstrap_logo.svg" width="32"
+                Bootstrap <img src="img/Bootstrap_logo.svg" width="32">
               </p>
               <div class="bar mb-2">
                 <div class="bootstrap skill">
@@ -150,9 +153,45 @@
           </div>
         </div>
       </section>
+<!-- end of about me -->
+      
+<!-- start of projects section -->
+      <section class="p-5" id="projects">
+        <div class="container-fluid">
+          <h1 class="proj-head text-center mt-4 mb-5">Projects in the works</h1>
+          <div class="py-5 d-flex justify-content-around flex-column flex-md-row align-items-center align-items-md-stretch"> 
 
-      <section></section>
-      <section></section>
+            <div class="card text-center col-md-3 mb-md-0 mb-5">
+              <img src="img/mrdefault2.png" class="card-img-top" alt="pic">
+                <div class="card-body">
+                    <h2 class="card-title">Project 1 Portfolio!</h2>
+                    <p class="card-text">this is my project i created with html, css & Bootstrap</p>
+                    <a href="#">link</a>
+                </div> 
+            </div>
+
+            <div class="card text-center col-md-3 mb-md-0 mb-5">
+              <img src="img/html5.png" class="card-img-top" alt="pic">
+                <div class="card-body">
+                  <h2 class="card-title">Project 1 Portfolio!</h2>
+                  <p class="card-text">this is my project i created with html, css & Bootstrap</p>
+                  <a href="#">link</a>
+              </div> 
+            </div>
+
+            <div class="card text-center col-md-3 mb-md-0 mb-5">
+              <img src="img/html5.png" class="card-img-top" alt="pic">
+                <div class="card-body">
+                    <h2 class="card-title">Project 1 Portfolio!</h2>
+                    <p class="card-text">this is my project i created with html, css & Bootstrap</p>
+                    <a href="#">link</a>
+                </div> 
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- end of projects section -->
+      <section class="p-5" id="contact"></section>
     </main>
     <footer></footer>
 
