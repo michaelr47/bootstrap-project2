@@ -132,3 +132,14 @@ nav div div a:hover {
     }
 }
 
+.img-thumbnail:hover {
+    opacity: .7;
+    transition: all 250ms ease-out;
+}
+
+#footer {
+     background-color: green;
+}
+textarea {
+    height: 100px;
+}
