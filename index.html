@@ -36,7 +36,7 @@
   <body>
     <!-- start of navbar section -->
     <header>
-      <nav class="navbar navbar-expand-md shadow-sm">
+      <nav class="navbar navbar-expand-md shadow-sm position-sticky">
         <div class="container-fluid px-0">
           <a href="#" class="navbar-brand"
             ><img
@@ -54,19 +54,19 @@
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          >
+          > 
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="toggleCollapse">
             <ul class="navbar-nav text-center ms-auto">
               <li class="nav-item">
-                <a class="nav-link me-md-5" href="#">About</a>
+                <a class="nav-link me-md-5" href="#"><i class="fa-regular fa-address-card"></i> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-md-5" href="#">Projects</a>
+                <a class="nav-link me-md-5" href="#"><i class="fa-solid fa-folder-tree"></i> Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-md-5" href="#">Contact</a>
+                <a class="nav-link me-md-5" href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
               </li>
             </ul>
           </div>
@@ -87,15 +87,15 @@
                 class="rightpic rounded-circle"
                 alt="main pic"
               />
-              <figcaption class="pt-1">
+              <figcaption class="pt-1 text-muted">
                 <small><i>- Me @ Yosemtite National Park</i></small>
               </figcaption>
             </div>
 
             <div class="col-md-6 order-md-first mb-sm-4 text-center">
-              <h2 class="name">Michael Reyes</h2>
+              <h1 class="name fw-bolder text-light">Michael Reyes</h1>
               <h1 class="title fw-bold"><i>Frontend Developer</i></h1>
-              <p class="fw-bolder fs-5">
+              <p class="fw-bolder fs-5 text-light text-capitalize text-opacity-75">
                 Currently in training to learn HTML, CSS, Bootstrap &
                 JavaScript!
               </p>
@@ -120,15 +120,15 @@
       <!-- end of home -->
 
       <!--- start of about me -->
-      <section class="p-0" id="about-skills">
+      <section class="py-5" id="about-skills">
         <div class="container-fluid p-5">
           <div class="row p-4">
             <div
-              class="col-sm-12 col-md-6 text-center align-content-center px-sm-4"
+              class="col-sm-12 col-md-6 text-center text-light align-content-center px-sm-4"
             >
               <h2 class="mt-5 mb-5">About Me</h2>
               <div class="h-75 d-flex align-items-center lh-lg">
-                <p class="mb-5 text-center fs-5">
+                <p class="mb-5 text-center text-light text-opacity-75 fs-5">
                   From having no direct career path in college and switching
                   majors tons of times, to now wanting to code because of the
                   ability to express myself and make ideas come to life through
@@ -139,26 +139,26 @@
                 </p>
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 text-center">
+            <div class="col-sm-12 col-md-6 text-center text-light">
               <h2 class="mb-4 mt-5">My Skills</h2>
-              <p class="fs-5 fw-semibold">
-                HTML <img src="img/html5.png" width="32" />
+              <p class="fs-5 fw-semibold mb-1">
+                HTML <img src="img/html5.png" width="51" />
               </p>
               <div class="bar mb-2">
                 <div class="skill html">
-                  <span class="fw-semibold fs-5">40%</span>
+                  <span class="fw-semibold fs-5">50%</span>
                 </div>
               </div>
-              <p class="fs-5 fw-semibold">
-                CSS <img src="img/css-icon.svg" width="32" />
+              <p class="fs-5 fw-semibold mb-1">
+                CSS <img src="img/css-icon.svg" width="34" />
               </p>
               <div class="bar mb-2">
                 <div class="css skill">
-                  <span class="fw-semibold fs-5">30%</span>
+                  <span class="fw-semibold fs-5">40%</span>
                 </div>
               </div>
-              <p class="fs-5 fw-semibold">
-                Bootstrap <img src="img/Bootstrap_logo.svg" width="32" />
+              <p class="fs-5 fw-semibold mb-1">
+                Bootstrap <img src="img/Bootstrap_logo.svg" width="38" />
               </p>
               <div class="bar mb-2">
                 <div class="bootstrap skill">
@@ -174,56 +174,57 @@
       <!-- start of projects section -->
       <section class="p-5" id="projects">
         <div class="container-fluid">
-          <h1 class="proj-head text-center mt-4 mb-5">Projects in the works</h1>
+          <h1 class="proj-head text-center mt-4 mb-3 text-light">Projects in the works</h1>
           <div
             class="py-5 d-flex justify-content-around flex-column flex-md-row align-items-center align-items-md-stretch"
           >
-            <div class="card text-center col-md-3 mb-md-0 mb-5">
+            <div class="card bg-cards text-center col-md-3 mb-md-0 mb-5">
               <a href="#">
                 <img
                   src="img/mrdefault2.png"
-                  class="card-img-top img-thumbnail"
+                  class="card-img-top img-thumbnail p-0"
                   alt="pic"
                 />
               </a>
               <div class="card-body">
-                <h2 class="card-title">Project 1 Portfolio!</h2>
+                <h2 class="card-title">Portfolio</h2>
                 <p class="card-text">
-                  this is my project i created with html, css & Bootstrap
+                  My very own portfolio page, Made with <span class="lead fw-bolder">HTML, CSS, & Bootstrap!</span>
                 </p>
-                <a href="#">link</a>
+                <a href="https://github.com/michaelr47/bootstrap-project2" target="_blank"><button type="button" class="btn btn-primary rounded-pill" target="_blank">View Code</button></a>
               </div>
             </div>
 
-            <div class="card text-center col-md-3 mb-md-0 mb-5">
-              <a href="https://michaelr47.github.io/parallax-practice/">
+            <div class="card bg-cards text-center col-md-3 mb-md-0 mb-5">
+              <a href="https://michaelr47.github.io/parallax-practice/ " target="_blank">
                 <img
                   src="img/thumbnail2.jpg"
-                  class="card-img-top img-thumbnail"
+                  class="card-img-top img-thumbnail p-0"
                   alt="pic"
                 />
               </a>
               <div class="card-body">
-                <h2 class="card-title">Project 1 Portfolio!</h2>
+                <h2 class="card-title">Parallax Wiki Page</h2>
                 <p class="card-text">
-                  this is my project i created with html, css & Bootstrap
+                 Parallax page of major Tech companies and small bio.
+                 
                 </p>
-                <a href="#">link</a>
+                <a href="https://github.com/michaelr47/parallax-practice/tree/main" target="_blank"><button class="btn btn-primary rounded-pill">View Code</button></a>
               </div>
             </div>
 
-            <div class="card text-center col-md-3 mb-md-0 mb-5">
+            <div class="card bg-cards text-center col-md-3 mb-md-0 mb-5">
               <a href="#">
                 <img
                   src="img/html5.png"
-                  class="card-img-top img-thumbnail"
+                  class="card-img-top img-thumbnail p-0"
                   alt="pic"
                 />
               </a>
               <div class="card-body">
-                <h2 class="card-title">Project 1 Portfolio!</h2>
+                <h2 class="card-title">Event Landing Page</h2>
                 <p class="card-text">
-                  this is my project i created with html, css & Bootstrap
+                 Responsive Custom built Event Page
                 </p>
                 <a href="#">link</a>
               </div>
@@ -236,11 +237,11 @@
       <!-- start of contact section -->
       <section class="p-5" id="contact">
         <div class="container-fluid p-5">
-          <div class="row text-center align-items-center">
+          <div class="row text-center align-items-center text-light">
             <h1>Get in Touch with Me!</h1>
           </div>
           <form class="mt-5">
-            <div class="col-md-5">
+            <div class="col-md-6">
               <div class="row">
                 <div class="form-floating mb-3">
                   <input
@@ -265,18 +266,20 @@
             </div>
             <div class="row">
               <div class="form-floating mb-3">
-                <textarea class="form-control" id="floatingMessage" placeholder="Message"></textarea>
+                <textarea class="form-control" id="floatingMessage" placeholder="Message" style="height: 200px;"></textarea>
                 <label for="floatingMessage" class="form-label ms-1">Message...</label>
               </div>
             </div>
-            <button class="btn btn-success" type="submit" value="Submit">Submit</button>
+            
+            <button class="btn bg-light px-4 py-2 rounded-pill" type="submit" value="Submit">Submit</button>
+          
         </div>
         </form>
         </div>
       </section>
       <!-- end of contact section -->
     </main>
-    <footer class="py-5" id="footer">
+    <footer class="py-5" id="fter">
 
     </footer>
 
