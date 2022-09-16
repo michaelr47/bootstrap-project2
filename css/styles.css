@@ -4,10 +4,18 @@ font-family: Quicksand, sans-serif; */
 
 body { background-color: #141c2d; }
 
-nav { background-color: #88b9da; }
+nav { 
+    background-color: #88b9da;
+    /* box-shadow: ; */
+}
 
 p, h2 {
     font-family: Poppins, sans-serif;
+}
+h1, h2 {
+    text-decoration: underline;
+    text-decoration-color:#88b9da;
+    text-decoration-thickness: 4px;
 }
 
 nav a {
@@ -21,9 +29,9 @@ nav div div a:hover { color: white !important; }
 
 .name {
     font-family: Poppins, sans-serif;
-    color: #c7dcea;
+    color: #cae1f9;
     font-weight: 600;
-    text-rendering: optimizeSpeed;
+    text-decoration: none;
 
 }
 .title {
@@ -33,6 +41,7 @@ nav div div a:hover { color: white !important; }
   text-shadow: 1px 1.5px 2.5px #6E0A1E;
   text-transform: uppercase;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .fa-github { color: #d1d1d1; }
@@ -79,6 +88,7 @@ nav div div a:hover { color: white !important; }
         font-size: 1.5rem;
         white-space: nowrap !important;
     }
+    .img-tools {width: 50% !important;}
     
 }
 
@@ -90,7 +100,8 @@ nav div div a:hover { color: white !important; }
     }
     .name { font-size: 2.2rem; }
     .abt-para { font-size: 1.1rem !important; }
-    .bar { height: 4%;}
+    .bar { height: 2%;}
+    
 }
 
 @media only screen and (min-width:768px) {
@@ -112,7 +123,7 @@ nav div div a:hover { color: white !important; }
     }
 }
 
-  @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .title {
         font-size: 2rem;
         letter-spacing: 8px;
@@ -125,9 +136,25 @@ nav div div a:hover { color: white !important; }
     .name {
         font-size: 2.2rem;
     }
+
+    .border-right {
+        border-right: 1px solid #6C757D !important;
+    }
    
     
 } 
+
+@media only screen and (max-width: 991px) {
+    .border-btm {
+        border-bottom: 1px solid #6C757D;
+        width: 35%;
+        margin: 7px 0;
+    }
+    .img-tools {
+        width: 35%;
+    }
+    .bar {height: 3%; }
+}
 
 @media only screen and (min-width: 1200px) {
     .title {
@@ -173,4 +200,8 @@ textarea { height: 100px; }
 .proj-btn:hover, .contact-btn:hover { 
     background-color: #980315;
     color: white; 
+}
+
+.fa-loc {
+    color: lightblue;
 }

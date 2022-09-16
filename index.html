@@ -30,7 +30,7 @@
   <body>
     <!-- start of navbar section -->
     <header id="home">
-      <nav class="navbar navbar-expand-md shadow-sm position-sticky">
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid px-0">
           <a href="#" class="navbar-brand"
             ><img
@@ -41,7 +41,7 @@
               height="60"
           /></a>
           <button
-            class="navbar-toggler me-3 nav-btn rounded-pill p-3 py-2"
+            class="navbar-toggler me-3 nav-btn border-2 rounded-pill p-3 py-2"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#toggleCollapse"
@@ -120,9 +120,9 @@
             <div
               class="col-sm-12 col-md-6 text-center text-light align-content-center px-sm-4"
             >
-              <h2 class="mt-5 mb-5 mb-sm-5">About Me</h2>
+              <h2 class="mt-5 mb-lg-1 mb-md-4 mb-sm-5">About Me</h2>
               <div class="h-75 d-flex align-items-center lh-lg">
-                <p class="mb-5 mt-md-5 text-center text-light text-opacity-75 fs-5 abt-para lead">
+                <p class="mt-lg-5 mt-sm-3 mt-md-5 mt-4 text-center text-light text-opacity-75 fs-5 abt-para lead">
                   From having no direct career path in college and switching
                   majors tons of times, to now wanting to code because of the
                   ability to express myself and make ideas come to life through
@@ -159,27 +159,26 @@
                   <span class="fw-semibold fs-5"></span>
                 </div>
               </div>
-              <h2>Tools</h2>
-              <div class="row d-flex flex-column flex-lg-row flex-md-column align-items-center justify-content-md-between flex-md-row pb-5">
-                <div class="col-2">
-                  <img src="img/git.png" alt="git logo" width="42">
+              <h2 class="mb-2">Tools</h2>
+              <div class="row d-flex flex-column flex-lg-row flex-md-column align-items-center justify-content-md-evenly flex-md-row pb-5">
+                <div class="col border-secondary border-btm border-right">
+                  <img src="img/git.png" alt="git logo" class="img-tools" width="42">
                   <p>Git</p>
                 </div>
-                <div class="col-2">
-                    <!-- <i class="fa-brands fa-codepen fa-2x"></i> -->
-                    <img src="img/codepen.png" alt="codepen logo" width="42">
+                <div class="col border-secondary  border-btm border-right">
+                    <img src="img/codepen.png" alt="codepen logo" class="img-tools" width="42">
                     <p>CodePen</p>
                 </div>
-                <div class="col-2">
-                  <img src="img/slacklogo.png" alt="slack logo" width="42">
+                <div class="col border-secondary border-btm border-right">
+                  <img src="img/slacklogo.png" alt="slack logo" class="img-tools" width="42">
                   <p>Slack</p>
                 </div>
-                <div class="col-2 me-sm-1">
-                  <img src="img/chrmedevtools.jpeg" alt="Chrome Devtools" width="42">
+                <div class="col border-secondary border-btm border-right">
+                  <img src="img/chrmedevtools.jpeg" alt="Chrome Devtools" class="img-tools" width="42">
                   <p>Chrome DevTools</p>
                   </div>
-                <div class="col-2">
-                  <img src="img/vscode.png" alt="visual studio code" width="42">
+                <div class="col border-secondary border-btm border-right">
+                  <img src="img/vscode.png" alt="visual studio code" class="img-tools" width="42">
                   <p>VS Code</p>
                 </div>
                 </div>
@@ -194,7 +193,7 @@
       <!-- start of projects section -->
       <section class="p-5" id="projects">
         <div class="container-fluid">
-          <h1 class="proj-head text-center mt-4 mb-3 text-light">Projects in the works</h1>
+          <h1 class="proj-head text-center mt-4 mb-3 text-light">Projects</h1>
           <div
             class="py-5 d-flex justify-content-around flex-column flex-md-row align-items-center align-items-md-stretch"
           >
@@ -207,7 +206,7 @@
                 />
               </a>
               <div class="card-body">
-                <h2 class="card-title">Portfolio</h2>
+                <h2 class="card-title text-decoration-none">Portfolio</h2>
                 <p class="card-text">
                   My very own portfolio page, Made with<br><span class="lead fw-bolder">HTML, CSS, & Bootstrap!</span>
                 </p>
@@ -224,7 +223,7 @@
                 />
               </a>
               <div class="card-body">
-                <h2 class="card-title">Parallax Wiki Page</h2>
+                <h2 class="card-title text-decoration-none">Parallax Wiki Page</h2>
                 <p class="card-text">
                  Parallax page of major Tech companies and small bio<br>of them.
                  
@@ -236,13 +235,14 @@
             <div class="card bg-cards text-center col-md-3 mb-md-0 mb-5">
               <a href="#">
                 <img
-                  src="img/html5.png"
+                  src="img/eventpagenail.jpg"
                   class="card-img-top img-thumbnail p-0"
                   alt="pic"
+                 
                 />
               </a>
               <div class="card-body">
-                <h2 class="card-title">Event Landing Page</h2>
+                <h2 class="card-title text-decoration-none">Event Landing Page</h2>
                 <p class="card-text">
                  Responsive Custom built Event Page
                 </p>
@@ -260,11 +260,16 @@
           <div class="row text-center align-items-center">
             <h1 class="text-light">Contact Me</h1>
           </div>
-          <div class="col-md-6">
-            <p>hello</p>
+          <div class="row">
+          <div class="col-md-5">
+            <div class="row">
+            <h2 class="text-decoration-none text-info">LOCATION</h2> <i class="fa-solid fa-map-location-dot fa-loc fa-2x ms-5 "></i>
+            <p class="text-muted fs-5">Bakersfield, CA</p>
           </div>
-          <form class="mt-5">
-            <div class="col-md-6">
+          <div class="row d-flex"></div>
+        </div>
+         
+          <form class="col-md-7 mt-4">
               <div class="row">
                 <div class="form-floating mb-3">
                   <input
@@ -293,9 +298,10 @@
                 <label for="floatingMessage" class="form-label ms-1">Message...</label>
               </div>
             </div>
-            <button class="btn px-4 py-2 contact-btn rounded-pill" type="submit" value="Submit">Submit</button>
-        </div>
-        </form>
+            <button class="btn px-4 py-2 mt-1 contact-btn rounded-pill" type="submit" value="Submit">Submit</button>
+      </form>
+      </div>
+        
         </div>
       </section>
       <!-- end of contact section -->
