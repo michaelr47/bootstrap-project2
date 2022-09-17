@@ -29,11 +29,11 @@ nav div div a:hover { color: white !important; }
 
 .name {
     font-family: Poppins, sans-serif;
-    color: #cae1f9;
+    color: #a9d5f3;
     font-weight: 600;
     text-decoration: none;
-
 }
+
 .title {
   font-family: 'Poppins', sans-serif;
   letter-spacing: 9px;
@@ -89,7 +89,8 @@ nav div div a:hover { color: white !important; }
         white-space: nowrap !important;
     }
     .img-tools {width: 50% !important;}
-    
+    .abt-para {margin-top: 3.5rem !important;}
+   
 }
 
 @media only screen and (max-width: 767px) {
@@ -121,6 +122,7 @@ nav div div a:hover { color: white !important; }
         font-size: 1.3rem !important;
         
     }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -175,12 +177,13 @@ nav div div a:hover { color: white !important; }
     transition: all 200ms ease-in-out;
 }
 
-.bg-forms { background-color: #efefef; }
+.bg-forms { background-color: #9abfd8; }
 
 textarea { height: 100px; }
 
 .bg-cards {
     background-color: #9abfd8;
+    box-shadow: 3px 5px 6px #C9A17E;
    
 }
 
@@ -197,11 +200,34 @@ textarea { height: 100px; }
 }
 
 .proj-btn, .contact-btn { background-color: #dee4e8; }
-.proj-btn:hover, .contact-btn:hover { 
-    background-color: #980315;
-    color: white; 
+.proj-btn:hover, .contact-btn:hover{ 
+    background-image: linear-gradient(45deg, #234459, #980315);
+    color: lightblue; 
 }
 
-.fa-loc {
-    color: lightblue;
-}
+.fa-loc, .fa-aplane { color: lightblue; }
+
+small span { position: absolute; }
+
+.tm-1 {transform: translate(-94px, -24px) rotate(20deg); }
+
+.te-1 { transform: translate(-80px, -20px) rotate(15deg); }
+
+.tat { transform: translate(-60px, -14px) rotate(13deg); }
+
+.ty { transform: translate(-35px, -9px) rotate(8deg); }
+
+.to-1 { transform: translate(-20px, -8px) rotate(-5deg); }
+
+.ts { transform: translate(-5px, -7.5px) rotate(-1deg); }
+
+.te-2 { transform: translate(10px, -8px) rotate(-5deg); }
+
+.tm-2 { transform: translate(23px, -9px) rotate(-10deg); }
+
+.ti-1 { transform: translate(40px, -12px) rotate(-15deg); }
+
+.tt { transform: translate(50px, -15px) rotate(-18deg); }
+
+.te-3 { transform: translate(60px, -19px) rotate(-20deg); }
+
