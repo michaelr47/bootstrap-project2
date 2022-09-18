@@ -181,13 +181,11 @@ nav div div a:hover { color: white !important; }
 textarea { height: 100px; }
 
 .bg-cards {
-    background-color: #9abfd8;
-    box-shadow: 5px 5px 10px 2px #4E6B84
-   
+    background-color: #9ad5ff;
 }
 .bg-cards:hover {
-    box-shadow: 5px 5px 12px 3px #86adce;
-    transform: translateY(-20px);
+    box-shadow:  -3px 4px 6px 2px #f0f0f0;
+    transform: translateY(-15px);
    
 }
 
@@ -203,13 +201,13 @@ textarea { height: 100px; }
     width: 40px;
 }
 
-.proj-btn, .contact-btn { background-color: #dee4e8; }
+.proj-btn, .contact-btn { background-color: #045890; color: white; }
 .proj-btn:hover, .contact-btn:hover{ 
     background-image: linear-gradient(45deg, #234459, #980315);
-    color: lightblue; 
+    color: rgb(160, 212, 229); 
 }
 
-.fa-loc, .fa-aplane { color: lightblue; }
+.fa-loc, .fa-aplane { color: rgb(197, 229, 240); }
 
 small span { 
     position: absolute;
