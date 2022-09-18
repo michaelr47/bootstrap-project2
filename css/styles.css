@@ -172,17 +172,22 @@ nav div div a:hover { color: white !important; }
 }
 
 .img-thumbnail:hover {
-    opacity: .7;
+    opacity: .8;
     transition: all 200ms ease-in-out;
 }
 
-.bg-forms { background-color: #9abfd8; }
+.bg-forms { background-color: #bad2e2; }
 
 textarea { height: 100px; }
 
 .bg-cards {
     background-color: #9abfd8;
-    box-shadow: 3px 5px 6px #C9A17E;
+    box-shadow: 5px 5px 10px 2px #4E6B84
+   
+}
+.bg-cards:hover {
+    box-shadow: 5px 5px 12px 3px #86adce;
+    transform: translateY(-20px);
    
 }
 
