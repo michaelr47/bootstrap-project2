@@ -143,11 +143,9 @@ small span {
     opacity: .8;
     transition: all 250ms ease-in-out;
 }
-/* ul li.dropdown-item {
-    position: relative;
-    top: 1px;
-    z-index: 999 !important;
-} */
+ul.dropdown-menu { background-image: linear-gradient(#f04927, #3B9CD7, #8512FA); }
+ 
+
 
 /* end of projects section */
 
